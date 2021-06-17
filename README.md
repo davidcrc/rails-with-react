@@ -22,3 +22,25 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# React-rails 
+
+  gem 'react-rails', '~> 2.6', '>= 2.6.1'
+
+
+  bundle install 
+
+
+  rails webpacker:install 
+
+  rails webpacker:install:react 
+  
+  rails generate react:install
+
+
+# verify
+  
+  rails g react:component UbicacionPuntero
+
+# create controller and route
+  
+  bin/rails generate controller Ubicacion index --skip-routes
