@@ -7,6 +7,7 @@ class UbicacionPuntero extends React.Component {
     super(props);
     this.movimientoPuntero = this.movimientoPuntero.bind(this);
     this.state = { x: 0, y: 0 };
+    console.log("print props", props);
   }
  
   movimientoPuntero(evento) {
